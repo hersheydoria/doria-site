@@ -212,7 +212,7 @@ body, html {
     padding: 0; /* Remove any padding */
     color: transparent; /* Transparent text */
     -webkit-text-stroke: 1px #fff; /* White stroke for visible text outline */
-    background: url('../images/back.png');
+    background: url('../images1/back.png');
     -webkit-background-clip: text; /* Clip the background to text */
     background-position: 0 0;
     animation: back 20s linear infinite; /* Animate background image */
