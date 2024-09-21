@@ -742,10 +742,6 @@ nav:hover .nav-content span {
     border-color: #74c0fc; /* Border highlight on tap */
 }
 
-.project a {
-    text-decoration: none;
-}
-
 @media (max-width: 1024px) {
     .project {
         padding: 20px;
@@ -834,4 +830,16 @@ button:hover {
 
 img {
     width: 100%;
+}
+
+iframe {
+    width: 50%;
+    height: 315px;
+}
+
+@media(max-width: 800px) {
+    iframe {
+        width: 100%;
+        height: 315px;
+    }
 }
